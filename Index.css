@@ -11,17 +11,71 @@ body {
     overflow-x: hidden;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 767px) {
     .popup {
-        display: none;
-    }
-    .flex { flex-direction: column;
+        width: 90%; /* Ajuste de largura para ocupar 90% da largura da tela */
+        height: auto; /* Altura automática para ajustar conteúdo */
+        bottom: 10px;
+        right: 5%; /* Ajuste da posição à direita */
     }
 
-    .btnTopo {
-        top: 90px;
+    #nav-icon1 {
+        margin-top: -38px; /* Ajuste de margem para o ícone do menu */
+        padding: 15px; /* Redução do tamanho do ícone do menu */
+    }
+
+    .menu-options {
+        top: 40px; /* Ajuste da posição do menu */
+        left: 5%; /* Ajuste da posição à esquerda */
+    }
+
+    .perfil {
+        top: 120px; /* Ajuste da posição do perfil */
+    }
+
+    .SocialMidia {
+        top: 160px; /* Ajuste da posição das mídias sociais */
+        font-size: 20px; /* Redução do tamanho do ícone das mídias sociais */
+    }
+
+    .Banner {
+        height: 300px; /* Redução da altura do banner */
+    }
+
+    .Foto-Perfil {
+        top: 40%; /* Ajuste da posição da foto de perfil */
+    }
+
+    .download-button {
+        width: 120px; /* Redução do tamanho do botão de download */
+        height: 40px; /* Redução do tamanho do botão de download */
+        top: 90%; /* Ajuste da posição do botão de download */
+    }
+
+    .apresentação {
+        top: 50%; /* Ajuste da posição do texto de apresentação */
+    }
+
+    .apresentação2 {
+        top: 54%; /* Ajuste da posição do texto secundário de apresentação */
+    }
+
+    .projetos {
+        height: 800px; /* Redução da altura da seção de projetos */
+    }
+
+    .Noathing {
+        padding: 50px; /* Redução do espaçamento do texto */
+        font-size: 100px; /* Redução do tamanho do texto */
+    }
+
+    footer {
+        font-size: 16px; /* Redução do tamanho do texto do rodapé */
     }
 }
+
+/* Estilos originais para telas maiores */
+/* (adicione estilos específicos para telas maiores além de 767px, se necessário) */
 
 
 ul {
