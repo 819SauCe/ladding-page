@@ -17,11 +17,20 @@ body {
     }
 
     .popup {
-        width: 10;
-        height: auto;
-        bottom: 10px;
-        right: 5%;
+        width: 150px;
+        height: 100px;
+        right: 2%;
         overflow-x: auto;
+        z-index: 4;
+    }
+
+    .popup p {
+        font-size: 15px;
+
+    }
+
+    #btnTopo {
+        z-index: 3;
     }
 
     a {
@@ -39,8 +48,7 @@ body {
     }
 
     .Banner {
-        height: 300px;
-        /* Redução da altura do banner */
+        width: auto;
     }
 
     .Foto-Perfil {
@@ -50,16 +58,12 @@ body {
 
     .download-button {
         width: 120px;
-        /* Redução do tamanho do botão de download */
         height: 40px;
-        /* Redução do tamanho do botão de download */
         top: 90%;
-        /* Ajuste da posição do botão de download */
     }
 
     .apresentação {
         top: 50%;
-        /* Ajuste da posição do texto de apresentação */
     }
 
     .apresentação2 {
@@ -68,20 +72,16 @@ body {
     }
 
     .projetos {
-        height: 800px;
-        /* Redução da altura da seção de projetos */
+        height: 100%;
     }
 
     .Noathing {
-        padding: 50px;
-        /* Redução do espaçamento do texto */
-        font-size: 100px;
-        /* Redução do tamanho do texto */
+        display: none;
+        opacity: 0;
     }
 
     footer {
         font-size: 16px;
-        /* Redução do tamanho do texto do rodapé */
     }
 }
 
