@@ -14,7 +14,6 @@ body {
 @media screen and (max-width: 767px) {
     body, html {
         overflow-x: hidden!important;
-        white-space: nowrap;
         max-width: 100%;
     }
 
@@ -24,11 +23,6 @@ body {
         right: 5%;
         overflow-x: auto;
         z-index: 20;
-    }
-
-    .perfil {
-        width: 100%;
-        max-width: 100%;
     }
 
     .popup p {
@@ -46,7 +40,7 @@ body {
 
     .menu-options {
         max-width: 100%;
-        width: auto;
+        width: 100%;
         top: 40px;
         left: 5%;
         opacity: 0;
@@ -59,7 +53,7 @@ body {
     }
 
     .Banner {
-        width: auto;
+        width: 100%;
         max-width: 100%;
     }
 
@@ -82,7 +76,7 @@ body {
     }
 
     .projetos {
-        height: auto;
+        height: 100%;
         max-width: 100%;
     }
 
@@ -96,7 +90,6 @@ body {
         font-size: 16px;
     }
 }
-
 
 ul {
     list-style: none;
