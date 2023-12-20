@@ -17,43 +17,24 @@ body {
     }
 
     .popup {
-        width: 90%;
-        /* Ajuste de largura para ocupar 90% da largura da tela */
+        width: 50%;
         height: auto;
-        /* Altura automática para ajustar conteúdo */
         bottom: 10px;
         right: 5%;
-        /* Ajuste da posição à direita */
     }
 
     a {
         color: white;
     }
 
-    #nav-icon1 {
-        margin-top: -38px;
-        /* Ajuste de margem para o ícone do menu */
-        padding: 15px;
-        /* Redução do tamanho do ícone do menu */
-    }
-
     .menu-options {
         top: 40px;
-        /* Ajuste da posição do menu */
         left: 5%;
-        /* Ajuste da posição à esquerda */
-    }
-
-    .perfil {
-        top: 120px;
-        /* Ajuste da posição do perfil */
     }
 
     .SocialMidia {
         top: 160px;
-        /* Ajuste da posição das mídias sociais */
-        font-size: 20px;
-        /* Redução do tamanho do ícone das mídias sociais */
+        font-size: 30px;
     }
 
     .Banner {
