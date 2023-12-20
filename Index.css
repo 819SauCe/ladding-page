@@ -14,19 +14,25 @@ body {
 @media screen and (max-width: 767px) {
     body {
         overflow-x: hidden;
+        max-width: 100%;
     }
 
     .popup {
         width: 50px;
         height: 50px;
-        right: 2%;
+        right: 5%;
         overflow-x: auto;
-        z-index: 4;
+        z-index: 20;
+    }
+
+    .perfil {
+        width: 100%;
+        max-width: 100%;
     }
 
     .popup p {
-        font-size: 15px;
-
+        font-size: 20px;
+        margin-top: 1px;
     }
 
     #btnTopo {
@@ -38,23 +44,26 @@ body {
     }
 
     .menu-options {
+        max-width: 100%;
+        width: auto;
         top: 40px;
         left: 5%;
         opacity: 0;
     }
 
     .SocialMidia {
-        top: 160px;
+        padding: 10px;
+        top: 150px;
         font-size: 30px;
     }
 
     .Banner {
         width: auto;
+        max-width: 100%;
     }
 
     .Foto-Perfil {
         top: 40%;
-        /* Ajuste da posição da foto de perfil */
     }
 
     .download-button {
@@ -69,25 +78,23 @@ body {
 
     .apresentação2 {
         top: 54%;
-        /* Ajuste da posição do texto secundário de apresentação */
     }
 
     .projetos {
-        height: 100%;
+        height: auto;
+        max-width: 100%;
     }
 
     .Noathing {
         display: none;
         opacity: 0;
+        max-width: 100%;
     }
 
     footer {
         font-size: 16px;
     }
 }
-
-/* Estilos originais para telas maiores */
-/* (adicione estilos específicos para telas maiores além de 767px, se necessário) */
 
 
 ul {
@@ -98,10 +105,10 @@ ul {
 
 .popup {
     width: 330px;
-    height: 33%;
+    height: 230px;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 2%;
+    right: 1%;
     background-color: #1b1b1b;
     border: 1px solid #ccc;
     color: white;
@@ -110,6 +117,12 @@ ul {
     display: none;
     z-index: 5;
     padding: 7px;
+    overflow-x: auto;
+}
+
+.popup p {
+    font-size: 20px;
+    margin-top: 1px;
 }
 
 .show-popup {
@@ -404,4 +417,8 @@ footer {
     line-height: 1;
     text-align: center;
     list-style: none;
+}
+
+footer .flex {
+    flex-direction: column-reverse;
 }
