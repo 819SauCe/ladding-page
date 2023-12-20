@@ -18,14 +18,13 @@ body {
     }
 
     .popup {
-        width: 50px;
-        height: 50px;
+        width: 50%!important;
         right: 5%;
         z-index: 20;
     }
 
     .popup p {
-        font-size: 15px;
+        font-size: 5px;
         margin-top: 1px;
     }
 
@@ -97,8 +96,8 @@ ul {
 }
 
 .popup {
-    width: 330px;
-    height: 230px;
+    width: 20%;
+    height: 30%;
     position: fixed;
     bottom: 2%;
     right: 1%;
