@@ -17,10 +17,11 @@ body {
     }
 
     .popup {
-        width: 50%;
+        width: 10;
         height: auto;
         bottom: 10px;
         right: 5%;
+        overflow-x: auto;
     }
 
     a {
