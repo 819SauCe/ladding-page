@@ -17,8 +17,8 @@ body {
     }
 
     .popup {
-        width: 150px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         right: 2%;
         overflow-x: auto;
         z-index: 4;
@@ -40,6 +40,7 @@ body {
     .menu-options {
         top: 40px;
         left: 5%;
+        opacity: 0;
     }
 
     .SocialMidia {
@@ -278,7 +279,7 @@ a:visited {
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 
 #btnTopo:hover {
