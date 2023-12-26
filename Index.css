@@ -22,7 +22,6 @@ body {
     .container-projeto1 {
         left: 9%;
         top: 5%;
-        
         transition: none;
         transform: none;
     }
@@ -88,7 +87,7 @@ body {
         display: flex;
         border: solid white 1px;
         border-radius: 10%;
-        line-height: 0.8;
+        line-height: 0.9;
         margin-top: 3%;
         margin-left: 3%;
         width: 300px;
