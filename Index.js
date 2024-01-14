@@ -48,3 +48,7 @@ document.getElementById('closePopup').addEventListener('click', function() {
 function downloadFile() {
     window.location.href = 'https://drive.google.com/uc?export=download&id=1hgr7H0YJLjY0WZYN7v8FRSqghpxZm7Ro';
 }
+
+function RedirectToSocial() {
+    window.location.href = "SocialMedia.html"
+}
