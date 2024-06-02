@@ -25,7 +25,6 @@ header {
 }
 
 .me {
-
     color: white;
     position: absolute;
     margin-top: 12%;
@@ -50,6 +49,15 @@ header {
     padding: 5px;
     font-family: "Work Sans", sans-serif;
     cursor: pointer;
+    transition: transform .2s
+}
+
+.Home:hover,
+.Skills:hover,
+.Projects:hover {
+    color:#171717;
+    background-color: white;
+    transform: scale(1.5);
 }
 
 .Home {
@@ -86,9 +94,23 @@ header {
 
 .astronaut {
     margin-left: 58%;
-    margin-top: -30%;
+    margin-top: -20%;
     width: 500px;
     height: auto;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
 
 .download-button {
@@ -106,6 +128,7 @@ header {
     transition: background-color 0.3s;
     position: relative;
     overflow: hidden;
+    z-index: 999;
 }
 
 .download-button:hover {
@@ -159,13 +182,6 @@ header {
 
 /* section */
 
-.tecPHP {
-    width: 100px;
-    height: auto;
-    margin-left: 39%;
-    margin-top: 3%;
-}
-
 .tecJAVA {
     width: 200px;
     height: auto;
@@ -187,11 +203,17 @@ header {
     margin-top: 3%;
 }
 
+.tecC {
+    width: 90px;
+    height: auto;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+
 .technology {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 5%;
-    margin-left: 5%;
 }
 
 .tecborder {
