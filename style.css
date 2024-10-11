@@ -19,9 +19,7 @@ header {
     height: 100vh;
     display: flex;
     align-items: center;
-    /* Centraliza verticalmente */
     justify-content: center;
-    /* Centraliza horizontalmente */
     text-align: center;
 }
 
@@ -38,18 +36,25 @@ header {
     color: white;
 }
 
+.comun-bts {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5%;
+    margin-right: 3%;
+}
+
 .Home,
 .Skills,
 .Projects {
-    position: absolute;
-    right: 7.5%;
-    margin-top: 1%;
+    margin-left: 0.7%;
+    margin-top: 0.3%;
     color: white;
     border: 1px solid aliceblue;
     padding: 5px;
     font-family: "Work Sans", sans-serif;
     cursor: pointer;
     transition: transform .2s;
+    margin-bottom: 1%;
 }
 
 .Home:hover,
@@ -60,36 +65,28 @@ header {
     transform: scale(1.5);
 }
 
-
-.Skills {
-    right: 5%;
-}
-
-.Projects {
-    right: 1.8%;
+.Projects:hover{
+    margin-left:0.9% ;
 }
 
 .alt-comun-bts img {
     max-width: 37px;
     color: white;
     filter: invert(100%);
+    cursor: pointer;
 }
 
 .alt-comun-bts {
     display: flex;
     flex-direction: row-reverse;
-    right: 10%;
-    margin-top: 0.9%;
-    margin-right: 10%;
-    cursor: pointer;
 }
 
 .Linkedin,
 .Github,
 .Instagram {
-    margin-bottom: 0.6%;
-    margin-right: 0.5%;
-    text-decoration: none;
+    margin-left: 0.5%;
+    padding: 5px;
+    cursor: pointer;
 }
 
 .astronaut {
@@ -120,13 +117,9 @@ header {
     overflow: hidden;
     z-index: 999;
     display: inline-flex;
-    /* Mudado para inline-flex */
     justify-content: center;
-    /* Centraliza horizontalmente */
     align-items: center;
-    /* Centraliza verticalmente */
 }
-
 
 
 .download-button:hover {
@@ -369,3 +362,4 @@ header {
         transform: translateY(0px);
     }
 }
+

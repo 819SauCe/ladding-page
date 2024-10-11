@@ -1,0 +1,35 @@
+/* Tela muito pequena, tipo smartwatches */
+@media (max-width: 320px) {
+    /* Estilos para telas muito pequenas */
+}
+
+/* Celulares pequenos */
+@media (min-width: 321px) and (max-width: 480px) {
+    /* Estilos para celulares pequenos */
+}
+
+/* Celulares médios e grandes (tipo smartphones mais comuns) */
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para celulares médios */
+}
+
+/* Tablets e dispositivos móveis maiores */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablets */
+}
+
+/* Telas pequenas de laptops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Estilos para laptops pequenos */
+}
+
+/* Desktops médios */
+@media (min-width: 1281px) and (max-width: 1440px) {
+    /* Estilos para desktops médios */
+}
+
+/* Telas grandes de desktop */
+@media (min-width: 1441px) and (max-width: 1920px) {
+
+
+}

@@ -8,30 +8,29 @@
     <meta name="keywords" content="Full-Stack Developer, Python, Java, Rust, Programming">
     <meta name="author" content="João Vitor Santana Oqueres">
     <title>Ladding page - ViitoJooj</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">                    <!--Conectando ao css principal-->
+    <link rel="stylesheet" href="responsive.css">               <!--Conectando ao css responsivo-->
+    <script src="app.js"></script>                              <!--Conectando ao JavaScript-->
 </head>
 
 <body>
     <div class="comun-bts">
+        <div class="alt-comun-bts">
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-santana-oqueres-96b197298/" target="_blank"
+                class="Linkedin">
+                <img src="Img/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/819SauCe" target="_blank" class="Github">
+                <img src="Img/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.instagram.com/viitojooj/" target="_blank" class="Instagram">
+                <img src="Img/instagram.png" alt="Instagram">
+            </a>
+        </div>
         <a class="Home">Home</a>
         <a class="Skills">Skills</a>
         <a class="Projects">Projects</a>
     </div>
-
-    <div class="alt-comun-bts">
-        <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-santana-oqueres-96b197298/" target="_blank"
-            class="Linkedin">
-            <img src="Img/linkedin.png" alt="LinkedIn">
-        </a>
-        <a href="https://github.com/819SauCe" target="_blank" class="Github">
-            <img src="Img/github.png" alt="GitHub">
-        </a>
-        <a href="https://www.instagram.com/viitojooj/" target="_blank" class="Instagram">
-            <img src="Img/instagram.png" alt="Instagram">
-        </a>
-    </div>
-
-
 
     <header>
         <div class="Descriçao">
@@ -48,38 +47,39 @@
         </div>
 
 
-        <div class="download-area">
-            <img class="astronaut" src="Img/Astronaut.png" alt="Astronaut">
-            <a href="Downloads/JoãoCV.7z" download class="download-button">Download CV</a>
-        </div>
+        <div class="download-area">                                                                             <!--Area para o download-->
+            <img class="astronaut" src="Img/Astronaut.png" alt="Astronaut">                                     <!--Area para o download-->
+            <a href="Downloads/JoãoCV.7z" download class="download-button">Download CV</a>                      <!--Area para o download-->
+        </div>                                                                                                  <!--Area para o download-->
+
+        
     </header>
     <section>
         <div class="technology">
             <div class="tecborder">
                 <img class="tecC" src="Img/C_Logo.png" alt="C Logo">
-                <p>• Eficiência de desempenho: C é conhecida por sua eficiência e rapidez de execução.<br>
-                    • Controle de hardware: É possível acessar diretamente o hardware do computador usando C, o que é
-                    útil para desenvolvimento de drivers e sistemas embarcados.<br>
-                    • Amplamente suportada: C é suportada em uma ampla variedade de plataformas e sistemas operacionais.
+                <p>Performance Efficiency: C is known for its efficiency and fast execution speed.
+                    Hardware Control: C allows direct access to computer hardware, making it useful for developing drivers and embedded systems.
+                    Widespread Support: C is supported on a wide range of platforms and operating systems.
                 </p>
             </div>
             <div class="tecborder">
                 <img class="tecJAVA" src="Img/Java-Logo.png" alt="Java Logo">
-                <p>• Portabilidade, pode ser executado em qualquer plataforma.<br>
-                    • Forte orientação a objetos, facilitando a construção de sistemas modulares e escaláveis.<br>
-                    • Amplamente utilizado em desenvolvimento de aplicativos Android e sistemas empresariais.</p>
+                <p>Portability: Can be executed on any platform.
+                    Strong Object-Oriented Approach: Facilitates the creation of modular and scalable systems.
+                    Widely Used: Commonly used in Android app development and enterprise systems.</p>
             </div>
             <div class="tecborder">
                 <img class="tecJAVASCRIPT" src="Img/JavaScript-Logo.png" alt="JavaScript Logo">
-                <p>• Linguagem de programação padrão para desenvolvimento web.<br>
-                    • Pode ser executado no lado do cliente e do servidor (Node.js).<br>
-                    • Grande quantidade de bibliotecas e frameworks para construção de aplicativos web interativos.</p>
+                <p>Standard Programming Language for Web Development: The go-to language for creating web applications.
+                    Client-Side and Server-Side Execution: Can run on both the client (browser) and server (Node.js).
+                    Extensive Libraries and Frameworks: Offers a vast array of libraries and frameworks for building interactive web applications.</p>
             </div>
             <div class="tecborder">
                 <img class="tecPYTHON" src="Img/Python.svg.png" alt="Python Logo">
-                <p>• Sintaxe simples e legível.<br>
-                    • Grande comunidade de desenvolvedores e bibliotecas.<br>
-                    • Amplamente utilizada em ciência de dados, IA, aprendizado de máquina e desenvolvimento web.</p>
+                <p>Simple and Readable Syntax: Easy to write and understand.
+                    Large Developer Community and Libraries: Supported by a vast community and numerous libraries.
+                    Widely Used: Popular in data science, AI, machine learning, and web development.</p>
             </div>
         </div>
     </section>
@@ -111,6 +111,5 @@
             
         </div>
     </section>
-    <script src="app.js"></script>
 </body>
 </html>
