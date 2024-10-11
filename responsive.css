@@ -1,35 +1,110 @@
-/* Tela muito pequena, tipo smartwatches */
-@media (max-width: 320px) {
-    /* Estilos para telas muito pequenas */
+/* Estilos para telas menores (Mobile: 320px - 480px) */
+@media (max-width: 480px) {
+    .Descriçao p {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .astronaut {
+        width: 200px;
+    }
+
+    .technology {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    .tecborder {
+        width: 90%;
+        height: auto;
+        margin: 5% auto;
+    }
+
+    .project11 {
+        flex-direction: column;
+    }
+
+    .project11 p {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .project111 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
 }
 
-/* Celulares pequenos */
-@media (min-width: 321px) and (max-width: 480px) {
-    /* Estilos para celulares pequenos */
+/* Estilos para tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .Descriçao p {
+        width: 80%;
+        font-size: 22px;
+    }
+
+    .astronaut {
+        width: 300px;
+    }
+
+    .technology {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        font-size: 12px;
+    }
+
+    .tecborder {
+        flex: 1 1 45%;
+        max-width: 350px;
+    }
+
+    .project11 {
+        flex-direction: column;
+    }
+
+    .project11 p {
+        width: 80%;
+    }
+
+    .project111 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
 }
 
-/* Celulares médios e grandes (tipo smartphones mais comuns) */
-@media (min-width: 481px) and (max-width: 767px) {
-    /* Estilos para celulares médios */
-}
+/* Estilos para telas médias (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Descriçao p {
+        width: 70%;
+        font-size: 24px;
+    }
 
-/* Tablets e dispositivos móveis maiores */
-@media (min-width: 768px) and (max-width: 1024px) {
-    /* Estilos para tablets */
-}
+    .astronaut {
+        width: 350px;
+    }
 
-/* Telas pequenas de laptops */
-@media (min-width: 1025px) and (max-width: 1280px) {
-    /* Estilos para laptops pequenos */
-}
+    .technology {
+        justify-content: space-around;
+        gap: 20px;
+        font-size: 12px;
+    }
 
-/* Desktops médios */
-@media (min-width: 1281px) and (max-width: 1440px) {
-    /* Estilos para desktops médios */
-}
+    .tecborder {
+        flex: 1 1 40%;
+        max-width: 350px;
+    }
 
-/* Telas grandes de desktop */
-@media (min-width: 1441px) and (max-width: 1920px) {
+    .project11 {
+        justify-content: center;
+    }
 
+    .project11 p {
+        width: 60%;
+    }
 
+    .project111 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }
