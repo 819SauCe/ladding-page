@@ -1,110 +1,245 @@
 /* Estilos para telas menores (Mobile: 320px - 480px) */
 @media (max-width: 480px) {
+
+    .Home,
+    .Skills,
+    .Projects {
+        margin-left: 1.5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .Descriçao {
+        display: flex;
+        text-align: center;
+    }
+
+    .me {
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 20%;
+    }
+
     .Descriçao p {
-        width: 90%;
-        font-size: 18px;
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
+        font-size: 20px;
+        z-index: 1;
+    }
+
+    .download-area {
+        position: absolute;
     }
 
     .astronaut {
-        width: 200px;
+        margin-top: 39%;
     }
 
-    .technology {
-        flex-direction: column;
-        gap: 10px;
-        font-size: 12px;
-    }
-
-    .tecborder {
-        width: 90%;
-        height: auto;
-        margin: 5% auto;
+    .download-button {
+        margin-top: 1%;
     }
 
     .project11 {
-        flex-direction: column;
-    }
-
-    .project11 p {
-        width: 90%;
-        margin-left: 0;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .project111 {
-        margin-left: 0;
-        margin-top: 10px;
+        margin: 0;
+    }
+
+    .project11 p {
+        width: 99%;
+        margin-top: 5%;
+        font-size: 18px;
+        margin-left: -0.1%;
+        line-height:22px;
+    }
+
+    .gestor {
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 5%;
+        height: auto;
     }
 }
 
 /* Estilos para tablets (481px - 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
+    .Home,
+    .Skills,
+    .Projects {
+        margin-left: 1.5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .Descriçao {
+        display: flex;
+        text-align: center;
+    }
+
+    .me {
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 20%;
+    }
+
     .Descriçao p {
-        width: 80%;
-        font-size: 22px;
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
+        font-size: 20px;
+        z-index: 1;
+    }
+
+    .download-area {
+        position: absolute;
     }
 
     .astronaut {
-        width: 300px;
+        margin-top: 39%;
     }
 
-    .technology {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-        font-size: 12px;
-    }
-
-    .tecborder {
-        flex: 1 1 45%;
-        max-width: 350px;
+    .download-button {
+        margin-top: 1%;
     }
 
     .project11 {
-        flex-direction: column;
-    }
-
-    .project11 p {
-        width: 80%;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .project111 {
-        margin-left: 0;
-        margin-top: 10px;
+        margin: 0;
+    }
+
+    .project11 p {
+        width: 99%;
+        margin-top: 5%;
+        font-size: 18px;
+        margin-left: -0.1%;
+        line-height:22px;
+    }
+
+    .gestor {
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 5%;
+        height: auto;
     }
 }
 
 /* Estilos para telas médias (768px - 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
+    .Home,
+    .Skills,
+    .Projects {
+        margin-left: 1.5%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    .Descriçao {
+        display: flex;
+        text-align: center;
+    }
+
+    .me {
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 35%;
+    }
+
     .Descriçao p {
-        width: 70%;
-        font-size: 24px;
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
+        font-size: 20px;
+        z-index: 1;
+    }
+
+    .download-area {
+        position: absolute;
     }
 
     .astronaut {
-        width: 350px;
+        margin-top: 39%;
     }
 
-    .technology {
-        justify-content: space-around;
-        gap: 20px;
-        font-size: 12px;
-    }
-
-    .tecborder {
-        flex: 1 1 40%;
-        max-width: 350px;
+    .download-button {
+        margin-top: 1%;
     }
 
     .project11 {
-        justify-content: center;
-    }
-
-    .project11 p {
-        width: 60%;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .project111 {
-        margin-left: 0;
-        margin-top: 20px;
+        margin: 0;
+    }
+
+    .project11 p {
+        width: 99%;
+        margin-top: 5%;
+        font-size: 18px;
+        margin-left: -0.1%;
+        line-height:22px;
+        padding-bottom:5%;
+    }
+
+    .gestor {
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 5%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1700px){
+    .Descriçao {
+        margin-left: 5%;
+    }
+
+    .Descriçao p {
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
+        font-size: 20px;
+        z-index: 1;
+    }
+
+    .download-area {
+        margin: none;
+        border: none;
+        padding: none;
+    }
+
+    .project1 {
+        margin-top: 5%;
+        padding-bottom: 4%;
+    }
+    
+    .project11 {
+        color: white;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .project11 p {
+        width: 90%;
+        height: 390px;
+        font-size: 20px;
+        border: 1px solid white;
+        line-height:20px;
+        margin-left: 1%;
+        }
+
+    .gestor {
+        width: 90%;
+        margin-top: 13%;
+        height: auto;
     }
 }

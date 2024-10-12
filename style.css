@@ -62,11 +62,7 @@ header {
 .Projects:hover {
     color: #171717;
     background-color: white;
-    transform: scale(1.5);
-}
-
-.Projects:hover{
-    margin-left:0.9% ;
+    transform: scale(1.1);
 }
 
 .alt-comun-bts img {
@@ -233,13 +229,12 @@ header {
     background-size: cover;
     margin-top: 5%;
     padding-bottom: 4%;
-
 }
 
 .project11 {
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 .project11 p {
