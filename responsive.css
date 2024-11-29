@@ -30,14 +30,16 @@
 
     .download-area {
         position: absolute;
+
     }
 
     .astronaut {
-        margin-top: 39%;
+        margin-top: 1%; 
     }
 
     .download-button {
-        margin-top: 1%;
+        position: absolute;
+        margin-bottom: 100%;
     }
 
     .project11 {
@@ -96,6 +98,7 @@
 
     .download-area {
         position: absolute;
+        margin-bottom: 20%;
     }
 
     .astronaut {
@@ -241,5 +244,9 @@
         width: 90%;
         margin-top: 13%;
         height: auto;
+    }
+
+    .tecborder p{
+        font-size: 18px;
     }
 }
